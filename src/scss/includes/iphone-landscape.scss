@@ -1,0 +1,25 @@
+.menubar .menubutton {
+    margin-left: 400px;
+}
+.menubar .logo {
+    margin-left: 50px;
+}
+.information .info-cards .info-card {
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.information .info-cards :first-child {
+    margin: 0px;
+}
+.footer {
+    flex-wrap: wrap;
+    span {
+        margin-left: 15px;
+    }
+    ft-nav {
+        margin-right: 0px;
+        text-align: center;
+        width: 100%;
+    }
+}

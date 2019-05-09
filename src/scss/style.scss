@@ -1,0 +1,374 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #000000;
+$screen-width: 1200px;
+$background: #f7f7f7;
+$baseWhite: #ffffff;
+$footerBg: #e7e7e7;
+$descriptionColor: #8b8b8b;
+$btnRed: #fd4f32;
+$inputFontSize: 16px;
+$descriptionFontSize: 15px;
+$monsterratFont: 'Montserrat', sans-serif;
+$opensansFont: 'Open Sans', sans-serif;
+
+
+
+// For DEBUG
+/*
+* {
+    outline: 1px solid #fd4f32;
+}
+*/
+
+@import 'addons/reset.scss';
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $background;
+}
+
+.wrapper {
+    width: $screen-width;
+}
+
+.header {
+    width: 100%;
+    min-height: 600px;
+    background-image: url("../images/main-bg.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.menubar {
+    margin-top: 16px;
+    display: flex;
+}
+
+.logo {
+    font-size: 32px;
+    font-family: $font-stack;
+    color: $baseWhite;
+    height: 36px;
+    width: 147px;
+    margin-left: 100px;
+   
+
+
+    span {
+        margin-left: 12px;
+        font-family: $opensansFont;
+        font-weight: 300;
+    }
+}
+
+.menubutton {
+    margin-left: 829px;
+    img {
+        margin-top: 10px;
+    }
+}
+
+.firstpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+.slogan {
+    margin-top: 209px;
+    span {
+        font-size: 52px;
+        letter-spacing: 0.04em;
+        line-height: 1.2;
+        color: $baseWhite;
+        font-family: $opensansFont;
+        font-weight: 300;
+    }
+}
+
+.searchbar {
+    margin-top: 29px;
+    display: flex;
+    input {
+        width: 326px;
+        font-size: $inputFontSize;
+    }
+    span {
+        width: 122px;
+        height: 40px;
+        background-color: $btnRed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            color: $baseWhite;
+            text-decoration: none;
+            font-size: $inputFontSize;
+            font-family: $opensansFont;
+            font-weight: 700;
+        }
+    }
+}
+}
+.info-cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 56px;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 135px;
+    margin-right: 82px;
+    .info-card-title {
+        font-size: $inputFontSize;
+        font-family: $monsterratFont;
+    }
+
+    .info-card-descriprion {
+        margin-top: 13px;
+        font-size: 15px;
+        color: $descriptionColor;
+        font-family: $monsterratFont;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.hot-deals {
+    margin-top: 57px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    display: flex;
+    flex-direction: column;
+    .top-name {
+        margin-left: 107px;
+        font-size: $inputFontSize;
+        font-size: $monsterratFont;
+    }
+
+    .top-description {
+        margin-left: 128px;
+        font-size: $descriptionFontSize;
+    }
+}
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 37px;
+    flex-wrap: wrap;
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+        height: 340px;
+        margin-right: 13px;
+        .card-title {
+            margin-left: 20px;
+            margin-top: 17px;
+            font-size: 14px;
+            font-family: $monsterratFont;
+        }
+        .card-descr {
+            width: 205px;
+            margin-left: 20px;
+            margin-top: 14px;
+            font-size: 13px;
+            letter-spacing: 0.001em;
+            color: $descriptionColor;
+        }
+        
+        .card-image {
+            width: 240px;
+            height: 200px;
+        }
+
+    }
+    
+}
+
+.austr {
+    background-image: url("../images/2836119312_9e7800f56b_b.png");
+  }
+  .soam {
+    background-image: url("../images/90081148_e7aa4157da_b.png");
+  }
+  
+  .mona {
+    background-image: url("../images/5262123684_6830a612eb_b.png");
+  }
+  
+  .cleu {
+    background-image: url("../images/5271818050_3b6e933bf0_b.png");
+  }
+
+  .information {
+      background-color: $baseWhite;
+      display: flex;
+      flex-direction: column;
+  
+
+  .byl {
+      font-size: 52px;
+      letter-spacing: 0.04em;
+      line-height: 1.2;
+      margin-left: 94px;
+      margin-top: 74px;
+      font-family: $opensansFont;
+      font-weight: 300;
+  }
+
+  .gethotdeal {
+    margin-top: 53px;
+    text-align: center;
+    font-family: $monsterratFont;
+  }
+  
+  .gethotdeal-email {
+    width: 326px;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  
+  .email {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    margin-bottom: 80px;
+    justify-content: center;
+  }
+
+  .gethotdeal-btn {
+    width: 152px;
+    height: 40px;
+    background-color: $btnRed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        color: $baseWhite;
+        text-decoration: none;
+        font-size: $inputFontSize;
+        font-family: $opensansFont;
+        font-weight: 700;
+    }
+  }
+}
+  .footer {
+    background-color: $footerBg;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    span {
+        margin-left: 99px;
+        margin-top: 29px;
+        color: #8B8B8B;
+        letter-spacing: 0.02em;
+        line-height: 1.2;
+        font-size: 14px;
+    }
+    .ft-nav {
+        margin-right: 105px;
+        margin-top: 29px;
+        a {
+            font-size: 14px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #000000;
+            text-decoration: none;
+            margin-right: 16px;
+            font-family: $monsterratFont;
+        }
+        a:last-child {
+            margin: 0px;
+        }
+    }
+}
+
+/* Portrait 6/6S */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait) {
+    body {overflow-x: hidden;}
+    body, .wrapper {
+        width: 375px;
+    }
+@import "includes/iphone-portrait.scss";
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) 
+and (orientation: landscape) {
+    body, .wrapper {
+        width: 667px;
+    }
+@import "includes/iphone-landscape.scss";
+}
+//iPad landscape
+@media only screen 
+and (min-device-width: 1024px)
+and (max-device-width: 1150px)
+and (orientation: landscape) {
+    body, .wrapper {
+        width: 1024px;
+    }
+    @import "includes/ipad-landscape.scss";
+}
+
+/* 1024x768 & IPAD */
+$ipadportrait: 768px;
+$ipadlanscape: 1024px;
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    body, .wrapper {
+        width: 768px;
+    }
+  @import "includes/ipad-portrait.scss";
+}
+
+//Samsung S9-S9+ portrait
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 667px)
+and (orientation: portrait) {
+    body {overflow-x: hidden;}
+    body, .wrapper {
+        width: 360px;
+    }
+@import "includes/samsung-portrait.scss";
+}
+
+@media only screen
+and (device-width: 740px) 
+and (orientation: landscape) {
+    body, .wrapper {
+        width: 740px;
+    }
+    .menubar .menubutton {
+        margin-left: 500px !important;
+    }
+@import "includes/iphone-landscape.scss";
+}

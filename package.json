@@ -1,0 +1,24 @@
+{
+  "name": "site-layout-template-gulp-scss",
+  "version": "1.0.0",
+  "description": "template for site layout",
+  "main": "index.js",
+  "repository": "https://github.com/darkdelirium/site-layout-template-gulp-scss",
+  "author": "darkdelirium <alucard.ui@gmail.com>",
+  "license": "GNU",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}

@@ -1,0 +1,50 @@
+.menubar .logo {
+    margin-left: 30px;
+}
+.menubar .menubutton {
+    margin-left: 150px;
+}
+.firstpage .slogan span {
+    font-size: 30px;
+}
+
+.content .hot-deals .top-name {
+    margin-left: 55px;
+}
+.content .hot-deals .top-description {
+    margin-left: 76px;
+}
+
+.firstpage .searchbar span, .information .email .gethotdeal-btn {
+    width: 100px;
+}
+
+.firstpage .searchbar input, .information .email input {
+    width: 240px;
+}
+
+.information .byl {
+    font-size: 35px;
+    margin-left: 55px;
+}
+
+.information .info-cards {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.information .info-cards .info-card {
+    margin: 0px;
+}
+
+.footer {
+    flex-wrap: wrap;
+}
+.footer span {
+    margin-left: 30px;
+}
+.footer .ft-nav {
+    margin-right: 0px;
+    margin-left: 15px;
+}
