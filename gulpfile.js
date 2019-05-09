@@ -51,5 +51,13 @@ function watch(){
     gulp.watch(paths.styles.cssadd, style);
     gulp.watch(paths.styles.html, reload);
 };
-exports.watch = watch;
 
+try {
+    fs.accessSync("src/css/style.css");
+} catch(e) {
+    style();
+    console.log("css file not found, reloading...")
+    reload();
+}
+
+exports.watch = watch;
